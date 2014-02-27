@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
+    <wildcardResourcePatterns>
+      <entry name="!?*.groovy" />
+      <entry name="!?*.java" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$USER_HOME$/Technical/gradle-1.9" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="GradleUISettings">
+    <setting name="root" />
+  </component>
+  <component name="GradleUISettings2">
+    <setting name="root" />
+  </component>
+  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C" />
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dw_openshift.iml" filepath="$PROJECT_DIR$/dw_openshift.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: argparse4j-0.4.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/argparse4j-0.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dropwizard-client-0.6.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/dropwizard-client-0.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dropwizard-core-0.6.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/dropwizard-core-0.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dropwizard-testing-0.6.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/dropwizard-testing-0.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: gradle-fatjar-plugin-0.2-rc1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/gradle-fatjar-plugin-0.2-rc1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: guava-14.0.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/guava-14.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: hibernate-validator-4.3.1.Final">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/hibernate-validator-4.3.1.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: httpclient-4.2.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/httpclient-4.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: httpcore-4.2.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/httpcore-4.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-annotations-2.1.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-annotations-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-core-2.2.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-core-2.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-databind-2.1.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-databind-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-dataformat-yaml-2.1.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-dataformat-yaml-2.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-datatype-guava-2.1.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-datatype-guava-2.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-datatype-joda-2.1.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-datatype-joda-2.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-jaxrs-json-provider-2.1.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-jaxrs-json-provider-2.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-module-jaxb-annotations-2.1.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-module-jaxb-annotations-2.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-module-jsonSchema-2.1.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-module-jsonSchema-2.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jackson-module-scala_2.10-2.1.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jackson-module-scala_2.10-2.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jersey-apache-client4-1.17.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jersey-apache-client4-1.17.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jersey-client-1.17.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jersey-client-1.17.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jersey-core-1.17.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jersey-core-1.17.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jersey-server-1.17.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jersey-server-1.17.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jersey-servlet-1.17.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jersey-servlet-1.17.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jetty-client-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-client-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jetty-http-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-http-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jetty-server-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-server-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: joda-time-2.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/joda-time-2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jsr305-2.0.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jsr305-2.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jul-to-slf4j-1.7.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jul-to-slf4j-1.7.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: log4j-over-slf4j-1.7.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/log4j-over-slf4j-1.7.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: logback-classic-1.0.10">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/logback-classic-1.0.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: logback-core-1.0.10">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/logback-core-1.0.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: metrics-annotation-2.2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/metrics-annotation-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: metrics-core-2.2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/metrics-core-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: metrics-graphite-2.2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/metrics-graphite-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: metrics-httpclient-2.2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/metrics-httpclient-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: metrics-jersey-2.2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/metrics-jersey-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: metrics-jetty-2.2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/metrics-jetty-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: metrics-logback-2.2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/metrics-logback-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: metrics-servlet-2.2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/metrics-servlet-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: mockito-all-1.9.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/mockito-all-1.9.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: slf4j-api-1.7.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+      <state key="Copyright.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+        </UIState>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
+          </splitter-proportions>
+          <last-edited>1.6</last-edited>
+        </UIState>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+    </states>
+  </component>
+</project>
+
