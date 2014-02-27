@@ -3,7 +3,7 @@ apply plugin: 'application'
 apply plugin: 'idea'
 apply plugin: 'fatjar'
 
-// Use Java 7 by default   *** Need to get java sdk for 7 on mac TODO!!
+// Use Java 7 by default
 sourceCompatibility = '1.7'
 targetCompatibility = '1.7'
 
