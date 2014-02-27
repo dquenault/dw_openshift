@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32908b69-8a44-4eb1-8ce9-97886e30434e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw_openshift.iws" afterPath="$PROJECT_DIR$/dw_openshift.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.openshift/action_hooks/start" afterPath="$PROJECT_DIR$/.openshift/action_hooks/start" />
     </list>
     <ignored path="dw_openshift.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -883,7 +881,11 @@
       <created>1393534894983</created>
       <updated>1393534894983</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated yml mapping&#10;">
+      <created>1393535163985</created>
+      <updated>1393535163985</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -934,7 +936,8 @@
     <MESSAGE value="Changed actions hooks to execute permissions&#10;" />
     <MESSAGE value="Libraries added&#10;" />
     <MESSAGE value="Updated start script to include necessary path entries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated start script to include necessary path entries" />
+    <MESSAGE value="Updated yml mapping&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated yml mapping&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
