@@ -4,4 +4,5 @@
 # $OPENSHIFT_DIY_IP:8080
 
 cd $OPENSHIFT_REPO_DIR
-nohup java -jar target/drop.jar server helloworld.openshift.yml > ${OPENSHIFT_DIY_LOG_DIR}/helloworld.log 2>&1 & 
+##nohup java -jar target/drop.jar server helloworld.openshift.yml > ${OPENSHIFT_DIY_LOG_DIR}/helloworld.log 2>&1 & 
+gradle run

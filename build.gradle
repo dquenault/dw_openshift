@@ -1,16 +1,56 @@
-apply plugin: 'war'
-apply plugin: 'jetty'
-apply plugin: 'eclipse-wtp'
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'idea'
+apply plugin: 'fatjar'
+
+// Use Java 7 by default   *** Need to get java sdk for 7 on mac TODO!!
+sourceCompatibility = '1.7'
+targetCompatibility = '1.7'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+// The main class of the application
+mainClassName = 'com.tearsofaunicorn.diy.HelloWorldService'
+
 
 repositories {
    mavenCentral()
 }
 
 dependencies {
-   providedCompile 'javax.servlet:servlet-api:2.5'
-   compile 'org.springframework:spring-webmvc:3.2.2.RELEASE'
-   runtime 'javax.servlet:jstl:1.1.2'
+   compile fileTree(dir: 'libs', include: '*.jar')
 }
 
-/* Change context path (base url). otherwise defaults to name of project */
-jettyRunWar.contextPath = '' 
+buildscript {
+    dependencies {
+        classpath fileTree(dir: 'libs',
+                includes: [
+                        'gradle-fatjar-plugin-0.2-rc1.jar'
+                ]
+        )
+    }
+}
+
+
+fatJar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+    exclude 'META-INF/.DSA', 'META-INF/.RSA', 'META-INF/*.SF'
+}
+
+task zip(type: Zip) {
+    baseName = 'product-service'
+    from fatJar.outputs.files
+    from ('.'){
+        include "*.yml"
+        include 'runService'
+        include 'version'
+    }
+}
+
+// Configure the run task to start the Dropwizard service
+run {
+    args 'server', '$OPENSHIFT_REPO_DIR/helloworld.openshift.yml'
+}
+
