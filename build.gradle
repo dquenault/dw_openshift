@@ -44,8 +44,6 @@ task zip(type: Zip) {
     from fatJar.outputs.files
     from ('.'){
         include "*.yml"
-        include 'runService'
-        include 'version'
     }
 }
 
