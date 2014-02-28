@@ -50,6 +50,10 @@ task zip(type: Zip) {
 // Configure the run task to start the Dropwizard service
 // Assumes that yml file is in base directory of repo
 run {
-    args 'server', 'helloworld.openshift.yml'
+    def environment = System.getProperty('environment')
+    if (!environment){
+        environment = 'local'
+    }
+    args 'server', environment + '.yml'
 }
 
