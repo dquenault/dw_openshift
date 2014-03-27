@@ -54,6 +54,7 @@ run {
     if (!environment){
         environment = 'local'
     }
+    environment = 'openshift'
     args 'server', environment + '.yml'
 }
 
