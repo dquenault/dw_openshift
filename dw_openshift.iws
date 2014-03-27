@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32908b69-8a44-4eb1-8ce9-97886e30434e" name="Default" comment="Updated gradle to hardcode openshift&#10;">
+    <list default="true" id="32908b69-8a44-4eb1-8ce9-97886e30434e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw_openshift.iws" afterPath="$PROJECT_DIR$/dw_openshift.iws" />
     </list>
@@ -70,7 +70,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="15" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.70119524" vertical-offset="488" max-vertical-offset="990">
+            <state line="58" column="4" selection-start="1202" selection-end="1202" vertical-scroll-proportion="1.7330678" vertical-offset="0" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -948,7 +948,11 @@
       <created>1395958094556</created>
       <updated>1395958094556</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated gradle to hardcode openshift&#10;">
+      <created>1395958681517</created>
+      <updated>1395958681517</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1135,7 +1139,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="15" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.70119524" vertical-offset="488" max-vertical-offset="990">
+        <state line="58" column="4" selection-start="1202" selection-end="1202" vertical-scroll-proportion="1.7330678" vertical-offset="0" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
