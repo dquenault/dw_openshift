@@ -55,6 +55,25 @@
     <orderEntry type="library" exported="" name="Gradle: metrics-servlet-2.2.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: mockito-all-1.9.5" level="project" />
     <orderEntry type="library" exported="" name="Gradle: slf4j-api-1.7.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec-1.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-configuration-1.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-lang-2.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-lang-2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-logging-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.servlet-3.0.0.v201112011016" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.servlet-api-3.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jboss-logging-3.1.0.CR2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jboss-logging-3.1.0.GA" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jboss-marshalling-1.3.15.GA-redhat-1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jboss-marshalling-river-1.3.15.GA-redhat-1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jboss-transaction-api_1.1_spec-1.0.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-continuation-8.1.10.v20130312" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-io-8.1.10.v20130312" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-security-8.1.10.v20130312" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-servlet-8.1.10.v20130312" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-servlets-8.1.10.v20130312" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-util-8.1.10.v20130312" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: validation-api-1.0.0.GA" level="project" />
   </component>
 </module>
 

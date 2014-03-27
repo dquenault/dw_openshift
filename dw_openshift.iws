@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32908b69-8a44-4eb1-8ce9-97886e30434e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw_openshift.iml" afterPath="$PROJECT_DIR$/dw_openshift.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw_openshift.ipr" afterPath="$PROJECT_DIR$/dw_openshift.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw_openshift.iws" afterPath="$PROJECT_DIR$/dw_openshift.iws" />
     </list>
     <ignored path="dw_openshift.iws" />
@@ -69,25 +71,25 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="9" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="975">
+            <state line="52" column="53" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="start" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/start">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="362" selection-end="362" vertical-scroll-proportion="0.32868525" vertical-offset="0" max-vertical-offset="502">
+            <state line="18" column="48" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="140" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="3" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.05897772" vertical-offset="0" max-vertical-offset="763">
               <folding />
             </state>
           </provider>
@@ -105,7 +107,7 @@
       <file leaf-file-name="stop" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/stop">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="4" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -273,7 +275,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1393530043000" />
+        <entry key="$PROJECT_DIR$" value="1393607958000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -396,9 +398,9 @@
         <option value="$PROJECT_DIR$/.openshift/action_hooks/stop" />
         <option value="$PROJECT_DIR$/.openshift/action_hooks/build" />
         <option value="$PROJECT_DIR$/helloworld.yml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.openshift/action_hooks/deploy" />
         <option value="$PROJECT_DIR$/.openshift/action_hooks/start" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -584,8 +586,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -715,19 +717,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -753,6 +742,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -914,7 +916,15 @@
       <created>1393607151606</created>
       <updated>1393607151607</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated yml mapping&#10;">
+      <created>1393607157135</created>
+      <updated>1393607157135</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated yml mapping&#10;">
+      <created>1393607982960</created>
+      <updated>1393607982960</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -927,13 +937,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996207" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -945,6 +953,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -978,6 +988,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="53" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/start">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/pre_build">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/stop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="38" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="900">
           <folding />
         </state>
@@ -992,9 +1037,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/build">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
@@ -1020,35 +1063,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/openshift.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/build">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.23904383" vertical-offset="0" max-vertical-offset="502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/stop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="9" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="975">
+        <state line="52" column="53" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.yml">
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/start">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/build">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.23904383" vertical-offset="0" max-vertical-offset="502">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="140" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+        <state line="18" column="48" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
@@ -1060,16 +1104,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/stop">
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/start">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="362" selection-end="362" vertical-scroll-proportion="0.32868525" vertical-offset="0" max-vertical-offset="502">
+        <state line="3" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.05897772" vertical-offset="0" max-vertical-offset="763">
           <folding />
         </state>
       </provider>

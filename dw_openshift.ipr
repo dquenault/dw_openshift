@@ -214,6 +214,41 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="Gradle: commons-codec-1.6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/commons-codec-1.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-configuration-1.7">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/commons-configuration-1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-lang-2.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/commons-lang-2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-lang-2.6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/commons-lang-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-logging-1.1.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Gradle: dropwizard-client-0.6.2">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/libs/dropwizard-client-0.6.2.jar!/" />
@@ -340,6 +375,55 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="Gradle: javax.servlet-3.0.0.v201112011016">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/javax.servlet-3.0.0.v201112011016.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: javax.servlet-api-3.0.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/javax.servlet-api-3.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jboss-logging-3.1.0.CR2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jboss-logging-3.1.0.CR2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jboss-logging-3.1.0.GA">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jboss-logging-3.1.0.GA.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jboss-marshalling-1.3.15.GA-redhat-1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jboss-marshalling-1.3.15.GA-redhat-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jboss-marshalling-river-1.3.15.GA-redhat-1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jboss-marshalling-river-1.3.15.GA-redhat-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jboss-transaction-api_1.1_spec-1.0.0.Final">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jboss-transaction-api_1.1_spec-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Gradle: jersey-apache-client4-1.17.1">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/libs/jersey-apache-client4-1.17.1.jar!/" />
@@ -382,6 +466,13 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="Gradle: jetty-continuation-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-continuation-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Gradle: jetty-http-8.1.10.v20130312">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/libs/jetty-http-8.1.10.v20130312.jar!/" />
@@ -389,9 +480,44 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="Gradle: jetty-io-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-io-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jetty-security-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-security-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Gradle: jetty-server-8.1.10.v20130312">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/libs/jetty-server-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jetty-servlet-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-servlet-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jetty-servlets-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-servlets-8.1.10.v20130312.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: jetty-util-8.1.10.v20130312">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/jetty-util-8.1.10.v20130312.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -504,6 +630,13 @@
     <library name="Gradle: slf4j-api-1.7.4">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: validation-api-1.0.0.GA">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/validation-api-1.0.0.GA.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
